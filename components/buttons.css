@@ -1,0 +1,6 @@
+.btn {
+   font-weight: 600;
+   transition: all 300ms ease;
+   padding: 1rem;
+   border-radius: 2rem;
+}

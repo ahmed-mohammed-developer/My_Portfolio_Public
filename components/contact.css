@@ -1,0 +1,57 @@
+.contact {
+   padding-block: 20px;
+   margin-bottom: 100px;
+}
+
+.contact .big-title {
+   text-align: center;
+   margin-block: 20px;
+}
+.contact .big-title h1 {
+   margin-top: 10px;
+}
+.contact .section-contact-del {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin: 2rem auto;
+   padding: 0.5rem;
+   border-radius: 2rem;
+   border: rgb(53, 53, 53) 0.1rem solid;
+   border-color: rgb(163, 163, 163);
+   width: 30rem;
+}
+
+.contact .section-contact-del .section-contact-left {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.contact .section-contact-del .section-contact-left:hover {
+   color: rgb(181, 181, 181);
+   text-decoration: underline;
+   text-underline-offset: 1rem;
+   text-decoration-color: rgb(181, 181, 181);
+}
+.contact .section-contact-left img {
+   height: 2rem;
+}
+
+@media (max-width: 540px) {
+   .contact .section-contact-del {
+      flex-direction: column;
+      gap: 10px;
+      width: auto;
+   }
+}
+
+@media (max-width: 365px) {
+   .contact .section-contact-del .section-contact-left p {
+      font-size: 1rem;
+   }
+   .contact .section-contact-del .section-contact-left img {
+      height:1rem;
+   }
+}

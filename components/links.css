@@ -1,0 +1,29 @@
+.links {
+   padding-block: 20px;
+}
+.links .header-section-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.links .navbar-2 {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+}
+
+.links .header-section .navbar-2 a:hover{
+   color: rgb(181, 181, 181);
+   text-decoration: underline;
+   text-underline-offset: 1rem;
+   text-decoration-color: rgb(181, 181, 181);
+}
+
+@media (max-width: 715px) {
+   .links .navbar-2 {
+      flex-direction: column;
+      text-align: center;
+   }
+   
+}
